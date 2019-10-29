@@ -19,7 +19,7 @@ public class Planet {
     private String population;
     private String[] residents;
     private String[] films;
-    private String crated;
+    private String created;
     private String edited;
     private String url;
 
@@ -116,12 +116,12 @@ public class Planet {
         this.films = films;
     }
 
-    public String getCrated() {
-        return crated;
+    public String getCreated() {
+        return created;
     }
 
-    public void setCrated(String crated) {
-        this.crated = crated;
+    public void setCreated(String created) {
+        this.created = created;
     }
 
     public String getEdited() {
